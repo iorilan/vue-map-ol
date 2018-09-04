@@ -44,6 +44,8 @@ import {defaults as defaultInteractions,Translate,Draw, Modify, Snap} from 'ol/i
 import Select from 'ol/interaction/Select';
 import MultiPolygon from 'ol/geom/MultiPolygon'
 
+import hm from '../assets/hm.js'
+
 //加载静态资源
 import '../assets/style/ol/ol.css'
 import bgImgSrc from '../assets/img/floor2.png'
@@ -162,6 +164,13 @@ export default {
     volLayers(){
       let _this = this;
       var ArrLayer = [];
+
+      ////append heatmap layers on map
+      if(hm.layers && hm.layers.length > 0){
+        for (var i = 0;i < hm.layers.length; i++)
+          ArrLayer.push(hm.layers[i]);
+      }
+
       ArrLayer.push(new ImageLayer({
         source: new Static({
           url: bgImgSrc,
