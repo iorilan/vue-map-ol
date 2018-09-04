@@ -11,7 +11,7 @@
           {
             "type": "Feature",
             "properties": {
-              "Name": "M 5.9 - 2012 Jan 15, SOUTH SHETLAND ISLANDS",
+              "Name": "",
               "description": null
             },
             "geometry": {
@@ -24,7 +24,7 @@
           {
             "type": "Feature",
             "properties": {
-              "Name": "M 5.9 - 2012 Jan 19, OFF W. COAST OF S. ISLAND, N.Z.",
+              "Name": "",
               "description": null
             },
             "geometry": {
@@ -37,14 +37,34 @@
           {
             "type": "Feature",
             "properties": {
-              "Name": "M 5.9 - 2012 Jan 28, KERMADEC ISLANDS, NEW ZEALAND",
+              "Name": "",
               "description": null
             },
             "geometry": {
               "type": "Point",
               "coordinates": [
-                1089.375,829.4531250000001
+                889.375,829.4531250000001
               ]
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [457.5,475.0781250000001]
+            },
+            "properties": {
+              "prop0": "value04"
+            }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [896.25,583.8281250000001]
+            },
+            "properties": {
+              "prop0": "value05"
             }
           }
         ]
